@@ -148,7 +148,7 @@ body {
 }
 
 .category-item:hover img{
-  -webkit-transform:scale(1.25);
+  -webkit-transform:scale(1.4);
   cursor: pointer
 }
 
