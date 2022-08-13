@@ -7,7 +7,8 @@ import {
 } from "react-router-dom";
 
 import {
-    Head
+    Head,
+    Navbar
 } from '../Components';
 
 export default function index() {
@@ -15,6 +16,7 @@ export default function index() {
        <HashRouter>
            <div className="h-screen"> 
                 <Head />
+                <Navbar />
            </div>
        </HashRouter>
     )
