@@ -6,11 +6,9 @@ export default function index() {
     <div className="category">
       <div className="category-container">
         {Category.map((v, i) => (
-          <img
-            key={`category-${i}`}
-            className="category-item"
-            src={v.thumbnail}
-          />
+          <div key={`category-${i}`} className="category-item">
+            <img  src={v.thumbnail} />
+          </div>
         ))}
       </div>
     </div>
