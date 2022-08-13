@@ -1,4 +1,4 @@
-const category = [
+export const Category = [
     {
         id: '1',
         name: 'abaya-series',
