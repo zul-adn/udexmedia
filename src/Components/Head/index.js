@@ -7,13 +7,13 @@ export default function index() {
       <div className="header-content">
         <div>
           <select className="currency-select">
-            <option>MYR</option>
-            <option>SGD</option>
-            <option>BND</option>
+            <option className="text-style-white">MYR</option>
+            <option className="text-style-white">SGD</option>
+            <option className="text-style-white">BND</option>
           </select>
         </div>
-        <div className="font-normal font-400">{Label.welcome}</div>
-        <div className="font-normal font-400">{Label.authDropship}</div>
+        <div className="text-style-white">{Label.welcome}</div>
+        <div className="text-style-white">{Label.authDropship}</div>
       </div>
     </div>
   );
