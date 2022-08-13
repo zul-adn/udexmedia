@@ -10,7 +10,7 @@ export default function index() {
         <div>
           <div className="social-navbar">
             {Social.map((v, i) => (
-                <img src={v.icon} />
+                <img key={`social${i}`} src={v.icon} />
             ))}
           </div>
         </div>
