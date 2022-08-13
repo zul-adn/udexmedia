@@ -8,7 +8,8 @@ import {
 
 import {
     Head,
-    Navbar
+    Navbar,
+    Menu,
 } from '../Components';
 
 export default function index() {
@@ -17,6 +18,7 @@ export default function index() {
            <div className="h-screen"> 
                 <Head />
                 <Navbar />
+                <Menu />
            </div>
        </HashRouter>
     )

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;400;500&display=swap");
 
 body {
   font-family: "Jost", sans-serif;
@@ -81,8 +81,42 @@ body {
 }
 
 
+/* ======================== Manu ============================ */
 
+.menu{
 
+}
+
+.menu ul{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.menu a {
+  display: block;
+  font-size: 8pt;
+  color: black;
+  text-decoration: none;
+  padding: 10px 10px;
+  font-weight: 1000;
+}
+
+.menu a:hover {
+  border-bottom: 4px solid black;
+  z-index: -1;
+  cursor: pointer;
+}
+
+.menu a{
+  transition: all .15s ease-in-out;
+}
 
 /* Extra small devices (phones, 600px and down)
 @media only screen and (max-width: 600px) {}
