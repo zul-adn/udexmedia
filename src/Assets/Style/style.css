@@ -152,7 +152,49 @@ body {
   cursor: pointer
 }
 
+/* ======================== FOOTER ============================= */
 
+.footer {
+  width: 100%;
+}
+
+.footer-content{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-between;
+  padding: 15px 45px 15px 45px;
+}
+
+.footer-box{
+  max-width: 300px;
+  padding: 15px;
+}
+
+.footer-title{
+  color: #fff;
+  font-size: 12pt;
+  font-weight: 400;
+  padding: 15px 20px 15px 20px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
+}
+
+.footer-text-style{
+  color: #fff;
+  font-size: 12pt;
+  font-weight: 400;
+}
+
+.footer-box ul{
+  list-style:none;
+    padding:10px;
+    margin:0;
+}
+
+.footer-box ul li{
+  padding: 4px 0px;
+}
 
 
 /* Extra small devices (phones, 600px and down)
