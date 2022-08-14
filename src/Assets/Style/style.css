@@ -203,6 +203,18 @@ body {
   padding: 4px 0px;
 }
 
+.copyright{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  color: #fff;
+  font-size: 10pt;
+  font-weight: 400;
+}
+
 
 /* Extra small devices (phones, 600px and down)
 @media only screen and (max-width: 600px) {}

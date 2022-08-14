@@ -62,6 +62,11 @@ export default function index() {
           </div>
         </div>
       </div>
+
+      <div className="copyright">
+        Copyright &copy; <a href="http://" /> {new Date().getFullYear()}{" "}
+        Hijabistahub. All rights reserved.
+      </div>
     </div>
   );
 }
