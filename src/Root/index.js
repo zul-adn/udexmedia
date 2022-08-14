@@ -9,8 +9,10 @@ export default function index() {
     <HashRouter>
       <div className="h-screen">
         <Head />
-        <Navbar />
-        <Menu />
+        <div className="sticky">
+          <Navbar />
+          <Menu />
+        </div>
         <Route exact path="/" component={MainPage} />
         {/* <Route path="/detail" component={DetailPage} />
         <Route path="/r" component={ResultPage} /> */}
