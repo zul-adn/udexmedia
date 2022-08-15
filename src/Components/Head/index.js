@@ -13,7 +13,7 @@ export default function index() {
           </select>
         </div>
         <div className="text-style-white">{Label.welcome}</div>
-        <div className="text-style-white">{Label.authDropship}</div>
+        <div className="auth text-style-white">{Label.authDropship}</div>
       </div>
     </div>
   );
