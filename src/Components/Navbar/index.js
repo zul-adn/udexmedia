@@ -8,9 +8,12 @@ export default function index() {
     <div className="navbar">
       <div className="navbar-content">
         <div>
+          <div className="menu-responsive">
+              <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png' />
+          </div>
           <div className="social-navbar">
             {Social.map((v, i) => (
-                <img key={`social${i}`} src={v.icon} />
+              <img key={`social${i}`} src={v.icon} />
             ))}
           </div>
         </div>
@@ -28,6 +31,9 @@ export default function index() {
             </div>
           ))}
         </div>
+        <div className="menu-responsive">
+              <img src='https://www.hijabistahub.com/site_media/img/standard/bag_icon.svg' />
+          </div>
       </div>
     </div>
   );

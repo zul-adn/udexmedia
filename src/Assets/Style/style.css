@@ -58,6 +58,10 @@ body {
     padding: 15px 45px 15px 45px;
   }
 
+  .menu-responsive{
+    display: none
+  }
+
   .title {
     width: 240px;
   }
@@ -257,11 +261,19 @@ body {
 
   .navbar-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     color: black;
-    padding: 15px 45px 15px 45px;
+    padding: 15px;
+  }
+
+  .menu-responsive{
+    display: block
+  }
+
+  .menu-responsive img{
+    width: 20px;
   }
 
   .title {
@@ -457,11 +469,19 @@ body {
 
   .navbar-content {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: row;
     color: black;
-    padding: 15px 45px 15px 45px;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  .menu-responsive{
+    display: block
+  }
+
+  .menu-responsive img{
+    width: 20px;
   }
 
   .title {
