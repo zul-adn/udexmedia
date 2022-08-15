@@ -4,12 +4,18 @@ import { Icon } from "../../Datas/icon";
 import { Social } from "../../Datas/social";
 
 export default function index() {
+
+  const showResponsiveMenu = () => {
+   document.querySelector('.menu-mobile').style.left = '0';
+   document.querySelector(".h-screen").style.overflowY = "hidden";
+  }
+
   return (
     <div className="navbar">
       <div className="navbar-content">
         <div>
           <div className="menu-responsive">
-              <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png' />
+              <img onClick={showResponsiveMenu} src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png' />
           </div>
           <div className="social-navbar">
             {Social.map((v, i) => (
