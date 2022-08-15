@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/udexmedia/static/css/main.931d5611.css",
-    "main.js": "/udexmedia/static/js/main.5add7c00.js",
+    "main.css": "/udexmedia/static/css/main.69c613a6.css",
+    "main.js": "/udexmedia/static/js/main.9f62c244.js",
     "static/js/787.291cde34.chunk.js": "/udexmedia/static/js/787.291cde34.chunk.js",
     "index.html": "/udexmedia/index.html",
-    "main.931d5611.css.map": "/udexmedia/static/css/main.931d5611.css.map",
-    "main.5add7c00.js.map": "/udexmedia/static/js/main.5add7c00.js.map",
+    "main.69c613a6.css.map": "/udexmedia/static/css/main.69c613a6.css.map",
+    "main.9f62c244.js.map": "/udexmedia/static/js/main.9f62c244.js.map",
     "787.291cde34.chunk.js.map": "/udexmedia/static/js/787.291cde34.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.931d5611.css",
-    "static/js/main.5add7c00.js"
+    "static/css/main.69c613a6.css",
+    "static/js/main.9f62c244.js"
   ]
 }
